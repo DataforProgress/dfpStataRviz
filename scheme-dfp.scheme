@@ -1,0 +1,139 @@
+*                                    dfp.scheme
+
+* This scheme is to set things according to DFP's guidelines
+
+*!  version 1.1.0  22mar2007
+
+#include s2color
+
+sequence 1410
+label "s1 color"
+
+
+color             black
+color background  white
+color foreground  black
+* do NOT use "r g b" numbers for background and foreground"
+
+color symbol         black
+color backsymbol     gs8
+
+color text           black
+color body           black
+color heading        black
+color subheading     black
+color axis_title     gs8
+color matrix_label   black
+color label          gs8
+color key_label      gs8
+color tick_label     gs8
+color tick_biglabel  gs8
+
+color box            none
+color textbox        none
+color mat_label_box  none
+
+color filled_text        black
+color filled             none
+color bylabel_outline    black
+
+color grid           none
+color major_grid     none
+color mat_label_box  none
+color minor_grid     none
+
+color ci_line        gs8
+color mat_label_box  ltkhaki
+color ci_arealine    gs12
+color ci_area        gs12
+color ci_symbol      gs8
+color ci2_line       khaki
+color ci2_arealine   ltkhaki
+color ci2_area       ltkhaki
+color ci2_symbol     khaki
+
+color matrix         navy    
+color refmarker      red
+color refmarkline    black
+color histogram      khaki
+color histback       gold
+color histogram_line stone
+color dot_line       gs8
+color dot_arealine   gs8
+color dot_area       gs4
+
+color xyline         gs8
+color refline        black
+color dots           black
+
+color plotregion         white
+color plotregion_line    white
+color matrix_plotregion  white
+color matplotregion_line gs8
+color legend             white
+color legend_line        none
+
+color tickline gs8
+
+color p       gs6
+color p1      navy*.8
+color p2      dknavy
+color p3      dkgreen
+color p4      cranberry
+color p5      dkorange
+color p6      sand
+color p7      gs10
+color p8      magenta
+color p9      cyan
+color p10     red
+color p11     lime
+color p12     brown
+color p13     purple
+color p14     olive_teal
+color p15     ltblue
+
+color pmarkback      white
+color pmarkbkfill    white
+
+* color p1markfill     light_xyz
+* color p2markfill     light_xyz
+* color p3markfill     light_xyz
+* color p4markfill     light_xyz
+* color p5markfill     light_xyz
+* color p6markfill     light_xyz
+* color p1markfill     none
+* color p2markfill     none
+* color p3markfill     none
+* color p4markfill     none
+* color p5markfill     none
+* color p6markfill     none
+* color p1mark         yellow
+* color p2mark         red
+* color p3mark         blue
+* color p#markfill   none
+* color p#           yellow
+* color p#line       yellow
+* color p#shade      yellow
+* color p#markback   yellow
+* color p#markbkfill yellow
+* color p#area       yellow
+* color plabel       white
+
+
+yesno mat_label_box          no
+yesno mat_label_as_textbox   no
+
+yesno draw_major_vgrid       no
+yesno draw_major_hgrid       no
+
+anglestyle vertical_tick     horizontal
+
+axisstyle bar_group horizontal_nolinetick
+
+shadestyle plotregion none
+
+linestyle plotregion  none
+
+
+areastyle matrix_label        none
+
